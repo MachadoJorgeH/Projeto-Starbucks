@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textos {
+    width: 600px;
+
+}
+
+h2 {
+    color: #333333;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+.imagem{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.botao-menu{
+    width:60px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao-menu:hover{
+    background-color: transparent;
+    transform: translateY(-20px) scale(1.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.0);
+    transition: all 0.3s ease-in-out;
+}
+
+.circulo{
+    background: #017143;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+
+   }
+
+
+.logo{
+    width: 80px;
+}
+
+.imagem-copo{
+    width: 340px;
+}
+
+.imagem-copo:hover{
+    width: 400px;
+    transition: 0.5s;
+}
+
+button {
+    background-color: #017143;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition:0.5s;
+}
+
+button:hover{
+    background-color: #03b47f;
+}
