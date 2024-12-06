@@ -2,6 +2,6 @@ Esse é um projeto da página do Starbucks, foram utilizados tecnologias como HT
 
 ## Acesse o Projeto Online 🌐
 
-Veja o projeto no GitHub Pages([https://seu-usuario.github.io/nome-do-repositorio/](https://machadojorgeh.github.io/Projeto-Starbucks/)
+[Veja o projeto no GitHub Pages](https://machadojorgeh.github.io/Projeto-Starbucks/)
 
 ![GitHub Logo](ProjetoStarbucks.jpg)
